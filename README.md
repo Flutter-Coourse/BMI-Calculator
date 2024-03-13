@@ -1,4 +1,4 @@
-# bmi_calculator
+# BMI Calculator
 
 Building Flutter UI
 
