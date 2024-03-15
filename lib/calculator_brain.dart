@@ -7,7 +7,7 @@ class CalculatorBrain {
   final int height;
   final int weight;
 
-  final double _bmi;
+  double _bmi;
 
   String calculateBMI() {
     return _bmi.toStringAsFixed(1);

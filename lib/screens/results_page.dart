@@ -36,6 +36,9 @@ class ResultsPage extends StatelessWidget {
           Expanded(
             flex: 5,
             child: ReusableCard(
+              onPress: () {
+                print('Tarjeta presionada');
+              },
               colour: kActiveCardColour,
               cardChild: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -56,7 +59,6 @@ class ResultsPage extends StatelessWidget {
                   ),
                 ],
               ),
-              onPress: () {},
             ),
           ),
           BottomButton(
